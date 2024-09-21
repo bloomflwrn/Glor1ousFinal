@@ -1,7 +1,7 @@
 streamlit
 pillow
 numpy
-opencv-python-headless
+opencv-python==<versi>
 torch
 torchvision
 scikit-learn
