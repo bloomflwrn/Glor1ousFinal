@@ -269,7 +269,7 @@ def apply_clahe(input2):
     image_cv = np.array(input2.convert('L'))               #convert to grayscale for CLAHE
     
     # Create CLAHE object and apply it to image
-    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+    clahe = cv2.createCLAHE(clipLimit=1.0, tileGridSize=(8,8))
     clahe_image = clahe.apply(image_cv)
     
     # Convert back to PIL image format
@@ -293,7 +293,7 @@ def generate_gaussian_filter(sigma: float, filter_shape: tuple):
     gaussian_filter /= gaussian_filter.sum()
     return gaussian_filter
 
-def apply_gaussian(input3, sigma=0.8, filter_shape=(5,5)):
+def apply_gaussian(input3, sigma=1, filter_shape=(3,3)):
     image_cv = np.array(input3)
     if len(image_cv.shape) == 2:
         gaussian_img = cv2.GaussianBlur(image_cv, filter_shape, sigma)
