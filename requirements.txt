@@ -1,7 +1,7 @@
 streamlit
 pillow
 numpy
-opencv-python-headless-4.10.0.84
+opencv-python-headless==4.5.5.64
 torch
 torchvision
 scikit-learn
