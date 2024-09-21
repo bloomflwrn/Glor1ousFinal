@@ -13,4 +13,3 @@ joblib
 streamlit_option_menu
 hydralit_components
 streamlit_image_comparison
-libGL.so.1
