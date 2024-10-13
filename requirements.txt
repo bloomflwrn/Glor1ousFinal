@@ -1,3 +1,7 @@
+git add .
+git commit -m "Reboot Streamlit app"
+git push origin main
+
 streamlit
 pillow
 numpy
