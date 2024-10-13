@@ -1,1 +1,1 @@
-*Glor1ous
+#Glor1ous
