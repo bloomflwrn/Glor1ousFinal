@@ -79,7 +79,7 @@ These results demonstrate the model's potential for real-time clinical applicati
 
 ### Prerequisites
 
-To run this project, you'll need Python 3.x and the following libraries:
+To run this project, you'll need Python 3.9 - 3.11 and the following libraries:
 - TensorFlow
 - Scikit-learn
 - NumPy
