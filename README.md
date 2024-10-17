@@ -24,6 +24,9 @@ Current methods for diagnosing brain tumors rely heavily on MRI scans and biopsi
 Recently, machine learning has shown promise in automating brain tumor diagnosis. However, most machine learning models still require manual feature selection, which adds complexity to the process. On the other hand, deep learning approaches offer higher accuracy but often come with significant computational requirements, making them less feasible for widespread use in under-resourced regions.
 
 ## Proposed Solution: BRAIN-VS
+<p align="center">
+  <img src="Project Images/Gambar 4.png" alt="Gambar 3" width="500" />
+</p>
 
 To address these challenges, we developed **BRAIN-VS**, a hybrid model that combines:
 - **VGG16** for automatic feature extraction from MRI images.
@@ -48,6 +51,9 @@ We used the **Masoud, 2021** dataset, which is a combined dataset from Figshare,
 This dataset can be accessed via [this Kaggle link](https://www.kaggle.com/dsv/2645886).
 
 ## Results
+<p align="center">
+  <img src="Project Images/Gambar 5.png" alt="Gambar 3" width="500" />
+</p>
 
 The BRAIN-VS model achieved outstanding performance:
 - **Accuracy**: 96.36%
@@ -59,6 +65,14 @@ These results demonstrate the model's potential for real-time clinical applicati
 
 **BRAIN-VS** offers a scalable, accurate, and computationally efficient solution for brain tumor classification. By leveraging a hybrid approach with VGG16 for feature extraction, PCA for dimensionality reduction, and SVM for classification, this model overcomes the limitations of manual feature selection and the high computational costs associated with deep learning models.
 
+<p align="center">
+  <img src="Project Images/Gambar 6.png" alt="Gambar 1" width="350" style="margin-right: 5px;" />
+  <img src="Project Images/gambar 7.png" alt="Gambar 2" width="350" />
+</p>
+
+<p align="center">
+  <img src="Project Images/Gambar 8.png" alt="Gambar 3" width="500" />
+</p>
 ---
 
 ## Getting Started
@@ -71,3 +85,5 @@ To run this project, you'll need Python 3.x and the following libraries:
 - NumPy
 - OpenCV
 - Matplotlib
+- Scikit-learn
+- PyTorch
