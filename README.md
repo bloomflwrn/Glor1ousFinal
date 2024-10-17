@@ -11,6 +11,9 @@ In Indonesia, the situation is dire, with a brain tumor-related death rate reach
   <img src="Project Images/gambar 2.png" alt="Gambar 2" width="300" />
 </p>
 
+<p align="center">
+  <img src="Project Images/Gambar 3.png" alt="Gambar 3" width="400" />
+</p>
 ## Research Gap
 
 Current methods for diagnosing brain tumors rely heavily on MRI scans and biopsies. While effective, these techniques are:
