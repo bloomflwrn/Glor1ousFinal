@@ -8,7 +8,7 @@ In Indonesia, the situation is dire, with a brain tumor-related death rate reach
 
 <p align="center">
   <img src="Project Images/Gambar 1.png" alt="Gambar 1" width="300" style="margin-right: 10px;" />
-  <img src="Glor1ousFinal/Project%20Images/Gambar%202.png" alt="Gambar 2" width="300" />
+  <img src="Project Images/gambar 2.png" alt="Gambar 2" width="300" />
 </p>
 
 ## Research Gap
