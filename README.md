@@ -7,8 +7,8 @@ Brain tumors represent one of the most fatal types of cancer globally, with an a
 In Indonesia, the situation is dire, with a brain tumor-related death rate reaching **92%**. This high mortality rate is worsened by limited access to radiology services and MRI equipment throughout the country, delaying diagnosis and treatment.
 
 <p align="center">
-  <img src="Project Images/Gambar 1.png" alt="Gambar 1" width="400" style="margin-right: 5px;" />
-  <img src="Project Images/gambar 2.png" alt="Gambar 2" width="400" />
+  <img src="Project Images/Gambar 1.png" alt="Gambar 1" width="350" style="margin-right: 5px;" />
+  <img src="Project Images/gambar 2.png" alt="Gambar 2" width="350" />
 </p>
 
 <p align="center">
