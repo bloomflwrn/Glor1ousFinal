@@ -67,7 +67,7 @@ These results demonstrate the model's potential for real-time clinical applicati
 
 <p align="center">
   <img src="Project Images/Gambar 6.png" alt="Gambar 1" width="350" style="margin-right: 5px;" />
-  <img src="Project Images/gambar 7.png" alt="Gambar 2" width="350" />
+  <img src="Project Images/Gambar 7.png" alt="Gambar 2" width="350" />
 </p>
 
 <p align="center">
