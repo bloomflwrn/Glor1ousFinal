@@ -1,4 +1,4 @@
-# BRAIN-VS: A Hybrid VGG16-SVM Model for Brain Tumor Classification
+# BRAINS-VS: A Hybrid VGG16-SVM Model for Brain Tumor Classification
 
 ## Introduction
 
@@ -63,7 +63,7 @@ These results demonstrate the model's potential for real-time clinical applicati
 
 ## Conclusion
 
-**BRAIN-VS** offers a scalable, accurate, and computationally efficient solution for brain tumor classification. By leveraging a hybrid approach with VGG16 for feature extraction, PCA for dimensionality reduction, and SVM for classification, this model overcomes the limitations of manual feature selection and the high computational costs associated with deep learning models. We have also deployed the code into Streamlit, enabling an interactive and user-friendly interface for real-time brain tumor classification. This deployment allows users, including healthcare professionals and researchers, to upload MRI images and immediately receive classification results through an accessible web-based application.
+**BRAINS-VS** offers a scalable, accurate, and computationally efficient solution for brain tumor classification. By leveraging a hybrid approach with VGG16 for feature extraction, PCA for dimensionality reduction, and SVM for classification, this model overcomes the limitations of manual feature selection and the high computational costs associated with deep learning models. We have also deployed the code into Streamlit, enabling an interactive and user-friendly interface for real-time brain tumor classification. This deployment allows users, including healthcare professionals and researchers, to upload MRI images and immediately receive classification results through an accessible web-based application.
 
 <p align="center">
   <img src="Project Images/Gambar 6.png" alt="Gambar 1" width="350" style="margin-right: 5px;" />
