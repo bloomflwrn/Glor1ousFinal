@@ -6,6 +6,11 @@ Brain tumors represent one of the most fatal types of cancer globally, with an a
 
 In Indonesia, the situation is dire, with a brain tumor-related death rate reaching **92%**. This high mortality rate is worsened by limited access to radiology services and MRI equipment throughout the country, delaying diagnosis and treatment.
 
+<p align="center">
+  <img src="./images/image1.jpg" alt="Image 1" width="300" style="margin-right: 10px;" />
+  <img src="./images/image2.jpg" alt="Image 2" width="300" />
+</p>
+
 ## Research Gap
 
 Current methods for diagnosing brain tumors rely heavily on MRI scans and biopsies. While effective, these techniques are:
@@ -27,6 +32,16 @@ In addition to the VGG16-SVM hybrid approach, we implemented **Principal Compone
 - **Automatic feature extraction**: VGG16 automates the extraction of relevant features, removing the need for manual feature selection.
 - **Efficient classification**: SVM classifies the brain tumor types based on the compressed feature set, providing a balance between speed and accuracy.
 - **Dimensionality reduction**: PCA reduces computational overhead, making the model faster while maintaining its predictive power.
+
+## Dataset
+
+We used the **Masoud, 2021** dataset, which is a combined dataset from Figshare, SARTAJ, and Br35. This dataset includes **four classes**:
+1. **Meningioma**
+2. **Glioma**
+3. **Pituitary**
+4. **No Tumor**
+
+This dataset can be accessed via [this Kaggle link](https://www.kaggle.com/dsv/2645886).
 
 ## Results
 
