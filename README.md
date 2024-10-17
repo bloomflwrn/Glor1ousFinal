@@ -32,7 +32,7 @@ In addition to the VGG16-SVM hybrid approach, we implemented **Principal Compone
 
 The BRAIN-VS model achieved outstanding performance:
 - **Accuracy**: 96.36%
-- **Execution time**: 66 seconds per sample
+- **Execution time**: 66 seconds (feature extraction - prediction)
 
 These results demonstrate the model's potential for real-time clinical applications, even in resource-constrained environments.
 
@@ -53,9 +53,3 @@ To run this project, you'll need Python 3.x and the following libraries:
 - OpenCV
 - Matplotlib
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/BRAIN-VS.git
-   cd BRAIN-VS
