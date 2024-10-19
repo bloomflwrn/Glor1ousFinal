@@ -17,7 +17,6 @@ In Indonesia, the situation is dire, with a brain tumor-related death rate reach
 </p>
 
 ## Research Gap
-
 Current methods for diagnosing brain tumors rely heavily on MRI scans and biopsies. While effective, these techniques are:
 - Time-consuming and labor-intensive.
 - Prone to subjectivity and human error in the diagnostic process.
@@ -42,7 +41,6 @@ In addition to the VGG16-SVM hybrid approach, we implemented **Principal Compone
 - **Dimensionality reduction**: PCA reduces computational overhead, making the model faster while maintaining its predictive power.
 
 ## Dataset
-
 We used the **Masoud, 2021** dataset, which is a combined dataset from Figshare, SARTAJ, and Br35. This dataset includes **four classes**:
 1. **Meningioma**
 2. **Glioma**
@@ -55,7 +53,6 @@ This dataset can be accessed via [this Kaggle link](https://www.kaggle.com/dsv/2
 <p align="center">
   <img src="Project Images/Gambar 5.png" alt="Gambar 3" width="500" />
 </p>
-
 The BRAIN-VS model achieved outstanding performance:
 - **Accuracy**: 96.36%
 - **Execution time**: 66 seconds (feature extraction - prediction)
@@ -63,7 +60,6 @@ The BRAIN-VS model achieved outstanding performance:
 These results demonstrate the model's potential for real-time clinical applications, even in resource-constrained environments.
 
 ## Conclusion
-
 **BRAINS-VS** offers a scalable, accurate, and computationally efficient solution for brain tumor classification. By leveraging a hybrid approach with VGG16 for feature extraction, PCA for dimensionality reduction, and SVM for classification, this model overcomes the limitations of manual feature selection and the high computational costs associated with deep learning models. We have also deployed the code into Streamlit, enabling an interactive and user-friendly interface for real-time brain tumor classification. This deployment allows users, including healthcare professionals and researchers, to upload MRI images and immediately receive classification results through an accessible web-based application.
 
 <p align="center">
@@ -79,7 +75,6 @@ These results demonstrate the model's potential for real-time clinical applicati
 ## Getting Started
 
 ### Prerequisites
-
 To run this project, you'll need Python 3.9 - 3.11 and the following libraries:
 - TensorFlow
 - Scikit-learn
